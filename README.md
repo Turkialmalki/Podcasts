@@ -2,12 +2,13 @@
    
 
 
-##About this Project
+## About this Project
+
 The idea of the project is:
 "Share a daily knowledge and Learn in the form of podcasts".
 
 
-##Functionalities 
+## Functionalities 
 
 1.Choose your interests (Comedy, TV & Films, Music)
 
