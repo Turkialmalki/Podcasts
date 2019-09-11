@@ -1,0 +1,141 @@
+p {
+  font-size: 14px;
+}
+
+.podcast-info {
+  margin-top: 40px;
+  display: flex;
+  color: goldenrod;
+}
+.podcast-info__artwork {
+  display: inline-block;
+
+  margin-right: 16px;
+}
+
+.podcast-info__artwork img {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  border: 1px solid #e7e7e7;
+}
+.podcast-info__meta {
+  width: 100%;
+}
+
+.isExplicit {
+  background: #333333;
+  color: #ffffff;
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 50px;
+}
+
+.meta__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+.meta__artist {
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 400;
+  color:black;
+}
+
+.meta__genres {
+  margin-top: 8px;
+}
+.meta__genres__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.meta__genre {
+  padding: 8px 16px;
+  display: inline-block;
+  background-color: #007bff;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.meta__genres--mobile {
+  display: none;
+}
+
+.meta__number-of-episodes {
+  margin-top: 8px;
+}
+
+.meta__number-of-episodes--mobile {
+  display: none;
+}
+.meta__description {
+  display: block;
+  color:black;
+  line-height: 1.4;
+  padding: 8px 0px;
+}
+.meta__description--mobile {
+  display: none;
+}
+
+.title--small {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color:goldenrod;
+  display: block;
+}
+
+.episode-title-with-btn {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.episode-info {
+  margin-bottom: 24px;
+}
+.episode-title {
+  font-size: 18px;
+  margin-left: 8px;
+}
+.episode-description {
+  font-size: 14px;
+  line-height: 1.4;
+  color:goldenrod;
+}
+.episode-description a {
+  color: #007bff;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .meta__genres {
+    display: none;
+  }
+
+  .meta__number-of-episodes {
+    display: none;
+  }
+
+  .meta__genres--mobile {
+    display: block;
+  }
+
+  .podcast-info__artwork img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .meta__number-of-episodes--mobile {
+    display: block;
+    padding-top: 8px;
+  }
+}
